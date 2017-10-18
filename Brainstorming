@@ -1,0 +1,42 @@
+Admin
+
+
+--> Agir comme un utilisateur
+--> Ajouter/Modifier/Supprimer un utilisateur
+--> Ajouter/modifier/Supprimer un état
+--> Ajouter/Modifier/Supprimer? un matériel
+--> Ajouter/Modifier/Supprimer? promo
+--> Ajouter/Modifier/supprimer? emprunteur
+
+
+
+Utilisateur:
+
+--> Ajouter/Modifier un emprunt
+--> Modifier son compte
+
+
+
+Une seul page login/mot de passe (codage md5??)
+
+
+
+Page Accueil:
+
+Onglets
+	Voir les emprunts actuels
+	Ajouter un emprunt
+	Modifier un emprunt
+	
+info bulle (si emprunt dépassé)
+Divers info (Bienvenue...)
+téléchargement du guide utilisateur
+
+
+	Voir les emprunts:
+		Tri par promo, matériel, date, emprunteur
+		Sélectioner juste une promo, etc.
+		
+	Export/Import SQL, CSV??
+	
+	Export SQL --> cmd Windows --> mysqldump -u 'user' db_name > db_name.sql
